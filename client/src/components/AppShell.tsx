@@ -8,6 +8,7 @@ import { useLive } from '@/lib/live'
 import { date, title } from '@/lib/format'
 import type { Approval, Notice, Role } from '@/lib/types'
 import { Badge, cn } from './ui'
+import AiAssistant from './AiAssistant'
 
 const NAV: { to: string; label: string; icon: typeof LayoutDashboard; end?: boolean; badge?: boolean; minRole?: Role }[] = [
   { to: '/', label: 'Executive Overview', icon: LayoutDashboard, end: true },
@@ -168,6 +169,7 @@ export default function AppShell() {
         </header>
         <main className="min-h-0 flex-1 overflow-y-auto p-5 lg:p-6"><div className="mx-auto max-w-[1400px]"><Outlet /></div></main>
       </div>
+      <AiAssistant />
     </div>
   )
 }
