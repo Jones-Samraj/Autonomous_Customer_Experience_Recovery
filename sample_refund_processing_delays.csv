@@ -1,8 +1,0 @@
-ticket_id,customer_id,created_at,channel,category,subject,description,priority,status,resolved_at,product
-TKT-REF-2026-001,CUST-00133,2026-10-25T09:15:00,chat,refund,Returned item 8 days ago but refund not credited,Courier picked up my returned Smart Watch a week ago. Warehouse confirmed return but refund money still not credited.,high,open,,Smart Watch Pro
-TKT-REF-2026-002,CUST-00278,2026-10-25T10:40:22,app,refund,Refund status stuck on pending reversal for 10 days,App promised refund within 48 hours. It has been 10 days and bank says no reimbursement initiated.,urgent,open,,Running Shoes
-TKT-REF-2026-003,CUST-00411,2026-10-25T12:05:40,phone,refund,Where is my refund for cancelled order?,Order was cancelled before shipment 7 days back. Need my money back immediately.,high,open,,Air Fryer 4L
-TKT-REF-2026-004,CUST-00569,2026-10-25T14:30:15,email,refund,Refund failed payout error on bank account,Support agent said refund was processed but ARN reference number is invalid at my bank.,urgent,open,,Office Chair
-TKT-REF-2026-005,CUST-00704,2026-10-25T16:10:50,chat,refund,Returned Bedsheet Set but refund reversal rejected,Return tracking shows package delivered to seller depot, yet refund status says return pending.,high,open,,Bedsheet Set
-TKT-REF-2026-006,CUST-00842,2026-10-25T17:45:00,app,refund,Over 14 days waiting for product return refund,Customer service promised refund callback twice. No callback and no money back.,urgent,open,,Coffee Maker
-

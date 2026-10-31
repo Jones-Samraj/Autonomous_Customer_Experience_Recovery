@@ -1,7 +1,0 @@
-review_id,customer_id,timestamp,product,rating,review_text,city,platform
-REV-PKG-2026-001,CUST-00160,2026-10-26T11:20:00,Wireless Earbuds,1,"Package arrived with broken seal and ripped outer box. Looked tampered with.",Delhi,Android
-REV-PKG-2026-002,CUST-00315,2026-10-26T13:45:12,Smart Watch Pro,1,"Outer carton was completely crushed and soaked in liquid. Packaging was terrible.",Mumbai,iOS
-REV-PKG-2026-003,CUST-00472,2026-10-26T15:10:30,Coffee Maker,2,"Product box seal was cut open. Security tape was replaced with transparent cello tape.",Bengaluru,Web
-REV-PKG-2026-004,CUST-00620,2026-10-26T16:30:45,Electric Kettle,1,"Delivered in a torn polybag with no bubble wrap. Item inside had scratches.",Pune,Android
-REV-PKG-2026-005,CUST-00788,2026-10-26T18:05:20,Blender 750W,1,"Crushed shipping box and cracked plastic jar due to insufficient protective wrap.",Chennai,iOS
-

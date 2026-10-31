@@ -1,8 +1,0 @@
-ticket_id,customer_id,created_at,channel,category,subject,description,priority,status,resolved_at,product
-TKT-DEL-2026-101,CUST-00142,2026-10-18T10:30:00,app,delivery,Order delayed for 4 days in Mumbai,Where is my Air Fryer? The courier tracking stopped updating 3 days ago.,high,open,,Air Fryer 4L
-TKT-DEL-2026-102,CUST-00289,2026-10-18T12:00:00,chat,delivery,Delivery estimate changed three times,Courier partner SwiftShip shows out for delivery but no delivery attempted.,medium,open,,Noise Cancelling Headphones
-TKT-DEL-2026-103,CUST-00371,2026-10-18T15:00:00,phone,delivery,Package stuck at transit hub in Mumbai,Order has been stuck at local hub for 72 hours. Need urgent escalation.,high,open,,Bedsheet Set
-TKT-DEL-2026-104,CUST-00415,2026-10-19T09:45:00,app,delivery,Express delivery SLA breached,Paid for next day delivery but order is already 4 days overdue.,urgent,open,,Smart Watch Pro
-TKT-DEL-2026-105,CUST-00523,2026-10-19T11:20:00,email,delivery,Fake delivery attempt reported,Carrier marked customer unavailable without calling or attempting delivery.,medium,open,,Electric Kettle
-TKT-DEL-2026-106,CUST-00681,2026-10-20T14:15:00,chat,delivery,Shipment delayed with new logistics carrier,Customer service representative was unable to locate package status.,high,open,,Wireless Earbuds
-
