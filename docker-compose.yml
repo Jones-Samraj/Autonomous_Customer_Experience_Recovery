@@ -1,0 +1,49 @@
+name: cx-sentinel-ai
+
+services:
+  db:
+    image: mysql:8.0
+    restart: unless-stopped
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?set MYSQL_ROOT_PASSWORD in .env}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-cx_sentinel}
+      MYSQL_USER: ${MYSQL_USER:-cx_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?set MYSQL_PASSWORD in .env}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -u root -p$$MYSQL_ROOT_PASSWORD --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  api:
+    build: ./server
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      # compose-level values win over .env, so a local SQLite DATABASE_URL in .env never leaks into the container
+      DATABASE_URL: mysql+pymysql://${MYSQL_USER:-cx_user}:${MYSQL_PASSWORD}@db:3306/${MYSQL_DATABASE:-cx_sentinel}?charset=utf8mb4
+      DB_FALLBACK_SQLITE: "false"
+      DATA_DIR: /app/data
+      CORS_ORIGINS: http://localhost:8080,http://localhost:5173
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - api_data:/app/data
+    ports:
+      - "8000:8000"
+
+  web:
+    build: ./client
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "8080:80"
+
+volumes:
+  mysql_data:
+  api_data:

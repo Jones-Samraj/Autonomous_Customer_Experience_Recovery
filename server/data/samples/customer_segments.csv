@@ -1,0 +1,6 @@
+segment_code,name,description,rule
+NEW_JOINERS,New Joiners,Customers with under 90 days of tenure,tenure_days < 90
+PREMIUM_METRO,Premium Metro Loyalists,Premium plan customers in metro cities,plan = premium
+TIER2_HOUSEHOLDS,Tier-2 Households,Customers in tier-2 cities,"city in (Pune, Jaipur)"
+URBAN_REGULARS,Urban Regulars,Plus plan customers in metro cities,plan = plus
+VALUE_SEEKERS,Value Seekers,"Free plan, discount-driven shoppers",plan = free

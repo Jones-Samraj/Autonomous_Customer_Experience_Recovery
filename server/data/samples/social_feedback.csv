@@ -1,0 +1,252 @@
+post_id,handle_hash,customer_id,timestamp,platform,text,likes,city
+SOC-ORD-000-0012-0-0,h04128704,,2026-10-03T22:28:54,instagram,The shipment of my Storage Containers is stuck and delivery is way past the promised date. Very frustrating experience!,4,Mumbai
+SOC-ORD-000-0023-0-0,h02233026,,2026-10-01T16:02:30,instagram,"Payment error while buying Beard Trimmer, had to abandon my cart. Not happy.",3,Mumbai
+SOC-ORD-000-0029-0-0,h89740013,,2026-10-04T06:25:01,x,Waiting for my Bedsheet Set for days now. The delivery estimate keeps changing. #customerservice,5,Mumbai
+SOC-ORD-000-0045-0-0,h13372284,,2026-10-04T08:21:58,facebook,Very late delivery for Sandwich Maker. It never turned up on the promised date.,4,Delhi
+SOC-ORD-000-0053-0-0,h75661450,CUST-01335,2026-10-04T05:29:04,x,"Delivery keeps getting delayed, tracking has shown the same status for 2 days.",4,Bengaluru
+SOC-ORD-000-0067-0-0,h86424730,,2026-10-04T12:29:57,facebook,Order delayed by 2 days with no proactive update from the company.,2,Mumbai
+SOC-pos-0-3,h59370467,,2026-10-01T07:51:08,x,"Great product, arrived on time and works perfectly.",0,Pune
+SOC-pos-0-7,h10875017,,2026-10-01T08:47:39,x,Smooth checkout and the order came a day early. Loved it.,5,Chennai
+SOC-bg0-0-0,h96113718,,2026-10-01T07:06:06,facebook,"Login screen keeps loading forever, then the app force closes. Please look into this.",5,Jaipur
+SOC-bg0-8-0,h86947885,CUST-01289,2026-10-01T09:30:12,facebook,Had to explain my issue three times to different agents.,1,Jaipur
+SOC-crash0-7.7.4-Android13-Android-0-1,h22410618,,2026-10-01T23:42:32,x,Again: App freezes on the home screen and closes by itself. #customerservice,0,Pune
+SOC-ORD-001-0040-0-0,h37174123,,2026-10-08T01:42:22,facebook,"Disappointed with the quality, the Sandwich Maker malfunctioned on day two. Please look into this.",5,Pune
+SOC-pos-1-1,h77848879,,2026-10-02T09:12:13,x,"Great product, arrived on time and works perfectly.",6,Chennai
+SOC-pos-1-2,h72659786,,2026-10-02T15:37:56,x,Smooth checkout and the order came a day early. Loved it.,1,Pune
+SOC-pos-1-4,h34314289,,2026-10-02T14:13:22,x,"Good value for money, will order again.",1,Mumbai
+SOC-bg1-7-0,h53183249,CUST-00676,2026-10-02T22:53:58,facebook,Had to explain my issue three times to different agents. Please look into this.,4,Pune
+SOC-bg1-8-0,h58020928,,2026-10-02T06:23:19,x,Coupon code failed and the final price was higher than advertised.,4,Chennai
+SOC-crash1-7.7.4-Android13-Android-0-1,h95026076,,2026-10-03T12:19:53,instagram,Again: App is very slow and hangs while loading product pages.,3,Mumbai
+SOC-ORD-002-0012-0-0,h52591635,,2026-10-06T13:54:44,instagram,Parcel delayed again. Nobody is telling me when it will actually be delivered.,2,Jaipur
+SOC-ORD-002-0084-0-0,h52077229,,2026-10-06T15:45:12,x,Ordered Air Fryer 4L and it still has not reached me. The promised date passed 2 days ago.,1,Pune
+SOC-pos-2-1,h61323425,,2026-10-03T21:02:08,x,Impressed with the packaging and quick delivery.,4,Delhi
+SOC-pos-2-5,h82804589,,2026-10-03T06:17:24,x,Impressed with the packaging and quick delivery.,1,Chennai
+SOC-pos-2-6,h52215867,,2026-10-03T19:02:50,x,App is easy to use and payment was instant.,3,Jaipur
+SOC-bg2-1-0,h79823739,CUST-00471,2026-10-03T18:42:55,x,"Delivery keeps getting delayed, tracking has shown the same status for 2 days.",1,Mumbai
+SOC-bg2-5-0,h97675157,CUST-00607,2026-10-03T15:49:44,facebook,App freezes on the home screen and closes by itself.,1,Delhi
+SOC-bg2-8-0,h07621809,CUST-00543,2026-10-03T09:07:12,instagram,Chat support closed my ticket without resolving the issue.,4,Chennai
+SOC-bg2-9-1,h90487312,,2026-10-04T16:59:07,instagram,"Again: Support response time is terrible, nobody follows up. Very frustrating experience!",3,Chennai
+SOC-bg2-10-0,h87841566,,2026-10-03T20:12:24,x,Chat support closed my ticket without resolving the issue.,1,Mumbai
+SOC-bg2-11-0,h59106890,CUST-00660,2026-10-03T08:30:03,instagram,Had to explain my issue three times to different agents.,1,Mumbai
+SOC-ORD-003-0073-0-0,h01965544,CUST-00350,2026-10-08T10:28:07,facebook,My Gaming Mouse arrived 1 days late. Really disappointed with the delivery.,1,Delhi
+SOC-pos-3-6,h21122470,,2026-10-04T15:15:39,x,App is easy to use and payment was instant.,2,Mumbai
+SOC-neu-3-3,h33626501,,2026-10-04T07:35:00,x,"Delivery was on time, the product is fine for the price.",0,Pune
+SOC-bg3-5-0,h91002791,,2026-10-04T08:35:54,facebook,"Disappointed with the quality, the Electric Kettle 1.8L malfunctioned on day two. Hope this gets fixed soon.",3,Pune
+SOC-bg3-10-0,h05771194,CUST-01457,2026-10-04T13:15:39,instagram,Chat support closed my ticket without resolving the issue. Hope this gets fixed soon.,6,Jaipur
+SOC-bg3-11-0,h97733598,,2026-10-04T08:47:14,x,Chat support closed my ticket without resolving the issue. Not happy.,6,Delhi
+SOC-bg3-14-0,h53815906,,2026-10-04T22:31:18,facebook,Price of Wrist Watch changed between cart and checkout. Will think twice before ordering again.,1,Bengaluru
+SOC-ORD-004-0046-0-0,h55554002,CUST-01397,2026-10-09T23:42:27,x,"Poor build quality on the Organic Tea 500g, it feels cheap and broke quickly.",8,Delhi
+SOC-ORD-004-0062-0-0,h72454032,,2026-10-09T12:10:49,instagram,"Delivery keeps getting delayed, tracking has shown the same status for 3 days.",4,Jaipur
+SOC-ORD-004-0105-0-0,h93043844,,2026-10-07T13:40:24,instagram,"Delivery keeps getting delayed, tracking has shown the same status for 2 days. Hope this gets fixed soon.",4,Bengaluru
+SOC-pos-4-4,h57613592,,2026-10-05T18:24:44,x,Excellent quality and fast delivery. Very happy with my purchase.,1,Bengaluru
+SOC-pos-4-6,h85031223,,2026-10-05T10:24:15,x,Excellent quality and fast delivery. Very happy with my purchase.,2,Delhi
+SOC-pos-4-8,h31486636,,2026-10-05T21:42:12,x,"Good value for money, will order again.",2,Chennai
+SOC-pos-4-11,h79578877,,2026-10-05T12:35:04,x,"Refund was processed quickly when I returned an item, great service.",2,Pune
+SOC-bg4-0-0,h47821915,,2026-10-05T17:29:53,instagram,Order delayed by 4 days with no proactive update from the company.,2,Bengaluru
+SOC-bg4-3-0,h33372921,,2026-10-05T08:51:51,instagram,"Poor build quality on the Perfume 100ml, it feels cheap and broke quickly.",3,Pune
+SOC-bg4-6-0,h50330141,,2026-10-05T21:17:00,instagram,No reply from the helpline for two days on my open ticket.,4,Chennai
+SOC-pos-5-3,h34755187,,2026-10-06T08:36:19,x,"Good value for money, will order again.",3,Delhi
+SOC-pos-5-6,h67262573,,2026-10-06T13:45:05,x,"Great product, arrived on time and works perfectly.",3,Mumbai
+SOC-bg5-5-0,h44185941,CUST-01481,2026-10-06T11:24:13,instagram,Item arrived damaged and does not work properly. Hope this gets fixed soon.,1,Mumbai
+SOC-pos-6-6,h11886941,,2026-10-07T15:12:39,x,"Great product, arrived on time and works perfectly.",1,Pune
+SOC-pos-6-8,h19715855,,2026-10-07T07:49:09,x,Excellent quality and fast delivery. Very happy with my purchase.,2,Mumbai
+SOC-pos-6-9,h44968768,,2026-10-07T19:52:32,x,Smooth checkout and the order came a day early. Loved it.,3,Pune
+SOC-pos-6-10,h92574076,,2026-10-07T12:08:33,x,Excellent quality and fast delivery. Very happy with my purchase.,5,Delhi
+SOC-bg6-5-0,h94939368,CUST-00825,2026-10-07T11:00:40,facebook,Had to explain my issue three times to different agents.,1,Chennai
+SOC-bg6-12-0,h78097309,,2026-10-07T16:29:16,facebook,"Outer box was damaged when it reached me, product inside was loose. Very frustrating experience!",7,Pune
+SOC-ORD-007-0013-0-1,h30227449,CUST-01459,2026-10-11T21:26:15,x,Again: Order delayed by 1 days with no proactive update from the company. Hope this gets fixed soon.,2,Jaipur
+SOC-ORD-007-0033-0-0,h81151453,,2026-10-11T00:07:17,instagram,Very late delivery for Noise Cancelling Headphones. It never turned up on the promised date. #customerservice,1,Mumbai
+SOC-pos-7-0,h64837942,,2026-10-08T09:02:52,x,"Great product, arrived on time and works perfectly.",0,Bengaluru
+SOC-pos-7-2,h24595287,,2026-10-08T22:35:11,x,Smooth checkout and the order came a day early. Loved it.,2,Mumbai
+SOC-pos-7-3,h23749096,,2026-10-08T06:31:39,x,"Refund was processed quickly when I returned an item, great service.",2,Delhi
+SOC-pos-7-6,h24638484,,2026-10-08T06:23:28,x,"Good value for money, will order again.",1,Delhi
+SOC-pos-7-8,h55990634,,2026-10-08T14:13:18,x,App is easy to use and payment was instant.,0,Delhi
+SOC-pos-7-9,h21788723,,2026-10-08T16:19:46,x,Smooth checkout and the order came a day early. Loved it.,0,Mumbai
+SOC-pos-7-10,h27856212,,2026-10-08T21:04:52,x,Smooth checkout and the order came a day early. Loved it.,1,Bengaluru
+SOC-ORD-008-0068-0-1,h77718649,CUST-00122,2026-10-13T08:33:31,facebook,Again: Ordered USB-C Fast Charger and it still has not reached me. The promised date passed 2 days ago. #customerservice,1,Chennai
+SOC-pos-8-1,h10752493,,2026-10-09T23:53:03,x,The Cushion Covers is exactly as described. Support was also helpful.,3,Mumbai
+SOC-pos-8-3,h59599268,,2026-10-09T15:21:24,x,Smooth checkout and the order came a day early. Loved it.,3,Jaipur
+SOC-pos-8-5,h33330636,,2026-10-09T15:33:53,x,Excellent quality and fast delivery. Very happy with my purchase.,1,Mumbai
+SOC-pos-8-12,h29573875,,2026-10-09T09:52:32,x,"Great product, arrived on time and works perfectly.",3,Mumbai
+SOC-bg8-0-0,h74473042,CUST-00233,2026-10-09T09:04:15,facebook,Very late delivery for Smartwatch. It never turned up on the promised date. Please look into this.,2,Pune
+SOC-bg8-3-0,h97759182,CUST-00653,2026-10-09T23:32:48,x,Customer support took ages to respond and did not solve my problem.,2,Chennai
+SOC-bg8-5-0,h33427307,,2026-10-09T15:03:09,x,Had to explain my issue three times to different agents. #customerservice,4,Jaipur
+SOC-bg8-6-0,h07570586,,2026-10-09T09:54:45,facebook,Chat support closed my ticket without resolving the issue.,3,Delhi
+SOC-ORD-009-0059-0-0,h48003852,,2026-10-17T02:26:11,x,"Poor build quality on the Face Serum, it feels cheap and broke quickly. #customerservice",2,Mumbai
+SOC-pos-9-0,h10946637,,2026-10-10T11:00:31,x,Impressed with the packaging and quick delivery.,0,Mumbai
+SOC-pos-9-1,h94720738,,2026-10-10T20:09:53,x,The Wireless Earbuds is exactly as described. Support was also helpful.,2,Chennai
+SOC-pos-9-10,h61640135,,2026-10-10T10:24:35,x,The Cushion Covers is exactly as described. Support was also helpful.,2,Pune
+SOC-pos-9-11,h33132307,,2026-10-10T06:54:30,x,The Hand Blender is exactly as described. Support was also helpful.,1,Jaipur
+SOC-neu-9-0,h49595996,,2026-10-10T21:35:32,x,"Delivery was on time, the product is fine for the price.",4,Jaipur
+SOC-neu-9-1,h17161965,,2026-10-10T13:59:39,x,"Delivery was on time, the product is fine for the price.",2,Chennai
+SOC-bg9-1-0,h71964706,,2026-10-10T23:39:51,instagram,"Payment error while buying Power Bank 20000mAh, had to abandon my cart.",2,Chennai
+SOC-bg9-3-0,h60487564,,2026-10-10T07:40:35,facebook,"Support response time is terrible, nobody follows up.",3,Pune
+SOC-ORD-010-0029-0-1,h52618330,,2026-10-28T15:34:36,x,"Again: Refund still not received after 8 days, support says it is stuck in processing since their system change.",4,Delhi
+SOC-ORD-010-0064-0-0,h16920939,,2026-10-15T09:09:18,instagram,The shipment of my Noise Cancelling Headphones is stuck and delivery is way past the promised date. Will think twice before ordering again.,3,Delhi
+SOC-ORD-010-0075-0-1,h96388152,,2026-10-14T19:22:14,instagram,Very late delivery for Wrist Watch. It never turned up on the promised date. #customerservice,0,Chennai
+SOC-pos-10-4,h26576256,,2026-10-11T08:03:14,x,Excellent quality and fast delivery. Very happy with my purchase.,4,Jaipur
+SOC-bg10-0-0,h09069287,CUST-00497,2026-10-11T23:58:19,instagram,"Payment error while buying Bluetooth Speaker, had to abandon my cart. Very frustrating experience!",0,Pune
+SOC-bg10-1-0,h06298412,,2026-10-11T07:02:50,x,"Login screen keeps loading forever, then the app force closes.",2,Chennai
+SOC-bg10-6-0,h41433597,,2026-10-11T19:03:07,facebook,Too expensive compared to other stores for the same item. Please look into this.,2,Bengaluru
+SOC-bg10-9-0,h19011608,,2026-10-11T15:31:22,x,The discount shown at checkout was not applied to my order. Will think twice before ordering again.,1,Jaipur
+SOC-bg10-11-0,h93895860,,2026-10-11T16:34:25,instagram,"Item was packed poorly, the box arrived crushed.",5,Chennai
+SOC-ORD-011-0058-0-0,h21504371,,2026-10-16T13:49:22,instagram,"Product quality is not as described, the Electric Kettle 1.8L is faulty. #customerservice",5,Mumbai
+SOC-pos-11-1,h00255509,,2026-10-12T13:56:18,x,"Good value for money, will order again.",3,Pune
+SOC-pos-11-4,h34697826,,2026-10-12T15:18:10,x,App is easy to use and payment was instant.,1,Pune
+SOC-bg11-2-0,h43232064,CUST-00319,2026-10-12T06:04:22,x,Support keeps saying the refund is processing but nothing has come to my account.,3,Mumbai
+SOC-ORD-012-0013-0-0,h40087487,,2026-10-20T16:26:31,instagram,"Product quality is not as described, the Mixer Grinder 500W is faulty. Hope this gets fixed soon.",3,Delhi
+SOC-ORD-012-0033-1-0,h89070723,,2026-10-25T10:44:48,instagram,Support keeps saying the refund is processing but nothing has come to my account. Not happy.,3,Chennai
+SOC-ORD-012-0048-0-0,h53474026,CUST-00536,2026-10-16T09:34:16,x,"Product quality is not as described, the Electric Kettle 1.8L is faulty. Please look into this.",3,Mumbai
+SOC-ORD-012-0082-0-0,h13968200,,2026-10-16T18:08:44,facebook,"Delivery keeps getting delayed, tracking has shown the same status for 2 days. #customerservice",2,Chennai
+SOC-pos-12-6,h23652662,,2026-10-13T16:13:09,x,"Great product, arrived on time and works perfectly.",0,Chennai
+SOC-neu-12-1,h62475071,,2026-10-13T07:00:43,x,"Average experience, nothing special.",0,Delhi
+SOC-bg12-0-0,h44789825,CUST-00080,2026-10-13T22:31:26,facebook,My Face Serum arrived 4 days late. Really disappointed with the delivery.,3,Mumbai
+SOC-bg12-15-0,h11757962,,2026-10-13T22:01:27,facebook,Packaging was torn and the box looked tampered with.,8,Mumbai
+SOC-ORD-013-0036-0-0,h59648744,,2026-10-17T12:00:47,instagram,Very late delivery for Perfume 100ml. It never turned up on the promised date. Will think twice before ordering again.,4,Bengaluru
+SOC-ORD-013-0062-0-1,h15023435,,2026-10-18T08:57:46,x,Again: My Bluetooth Speaker arrived 3 days late. Really disappointed with the delivery. Very frustrating experience!,3,Delhi
+SOC-ORD-013-0063-0-0,h82976955,,2026-10-26T06:45:45,facebook,Support keeps saying the refund is processing but nothing has come to my account.,5,Mumbai
+SOC-pos-13-3,h71492426,,2026-10-14T22:09:53,x,"Good value for money, will order again.",3,Pune
+SOC-bg13-2-0,h51702310,CUST-01455,2026-10-14T11:13:38,facebook,"Login screen keeps loading forever, then the app force closes.",3,Delhi
+SOC-bg13-12-0,h54838884,,2026-10-14T08:33:07,instagram,Too expensive compared to other stores for the same item.,4,Pune
+SOC-ORD-014-0035-0-0,h94164390,CUST-01034,2026-10-15T10:50:18,x,Payment failed at checkout and I could not place my order for Cushion Covers.,4,Mumbai
+SOC-ORD-014-0072-0-0,h16101789,,2026-10-22T06:39:14,facebook,"Disappointed with the quality, the Induction Cooktop malfunctioned on day two. #customerservice",9,Pune
+SOC-ORD-014-0077-0-0,h02970276,,2026-10-18T13:25:55,x,The shipment of my Handbag is stuck and delivery is way past the promised date.,0,Mumbai
+SOC-ORD-014-0088-0-0,h99053830,,2026-10-19T02:15:39,x,"Delivery keeps getting delayed, tracking has shown the same status for 2 days. Please look into this.",3,Jaipur
+SOC-ORD-014-0105-0-0,h40410199,,2026-10-27T06:30:08,x,"Refund still not received after 9 days, support says it is stuck in processing since their system change.",1,Jaipur
+SOC-pos-14-0,h70590200,,2026-10-15T18:46:53,x,The Wrist Watch is exactly as described. Support was also helpful.,0,Delhi
+SOC-bg14-2-0,h50186060,,2026-10-15T13:37:15,x,"Cannot browse anything, the app crashed three times today. Hope this gets fixed soon.",6,Chennai
+SOC-bg14-5-0,h85886630,,2026-10-15T13:22:56,instagram,Customer support took ages to respond and did not solve my problem.,4,Mumbai
+SOC-bg14-7-0,h66685152,CUST-01457,2026-10-15T15:20:03,x,"Prices went up compared to last month, not worth it anymore.",6,Jaipur
+SOC-ORD-015-0041-0-0,h83052565,CUST-00594,2026-10-21T23:13:36,x,"My Electric Kettle 1.8L stopped working after two days, there is a burning smell from the heating element. Please look into this.",1,Bengaluru
+SOC-ORD-015-0099-0-0,h73663878,,2026-10-29T18:43:10,facebook,Support keeps saying the refund is processing but nothing has come to my account.,5,Chennai
+SOC-pos-15-0,h58689849,,2026-10-16T07:35:17,x,"Great product, arrived on time and works perfectly.",0,Jaipur
+SOC-pos-15-8,h49582649,,2026-10-16T18:02:37,x,Smooth checkout and the order came a day early. Loved it.,3,Chennai
+SOC-pos-15-10,h30634582,,2026-10-16T23:34:15,x,App is easy to use and payment was instant.,2,Jaipur
+SOC-neu-15-1,h81149412,,2026-10-16T21:40:31,x,"Product is okay, does the job.",4,Pune
+SOC-bg15-2-0,h98985469,CUST-01033,2026-10-16T23:48:07,facebook,"Poor build quality on the Hand Blender, it feels cheap and broke quickly.",1,Chennai
+SOC-bg15-6-0,h51654417,CUST-01396,2026-10-16T19:21:02,instagram,"Item was packed poorly, the box arrived crushed.",3,Mumbai
+SOC-ORD-016-0038-0-1,h49576054,,2026-10-23T07:49:19,x,"Again: Electric Kettle 1.8L is defective. The heating element failed after minimal use, asking for a replacement. Not happy.",0,Pune
+SOC-pos-16-0,h57017590,,2026-10-17T17:37:51,x,Smooth checkout and the order came a day early. Loved it.,2,Pune
+SOC-pos-16-8,h28559536,,2026-10-17T17:11:00,x,Impressed with the packaging and quick delivery.,5,Mumbai
+SOC-pos-16-10,h53116396,,2026-10-17T14:12:41,x,The Cotton T-Shirt is exactly as described. Support was also helpful.,2,Delhi
+SOC-bg16-9-0,h95475145,,2026-10-17T12:57:15,facebook,Had to explain my issue three times to different agents.,4,Mumbai
+SOC-bg16-10-1,h21823162,,2026-10-18T08:09:56,instagram,Had to explain my issue three times to different agents. Very frustrating experience!,3,Jaipur
+SOC-crash16-7.7.4-Android12-Android-0-0,h06331595,CUST-00040,2026-10-17T06:25:27,instagram,"Login screen keeps loading forever, then the app force closes.",3,Mumbai
+SOC-ORD-017-0043-0-1,h49731854,CUST-01204,2026-10-23T10:12:26,facebook,"Delivery keeps getting delayed, tracking has shown the same status for 2 days.",3,Jaipur
+SOC-ORD-017-0072-0-0,h68020454,,2026-10-21T14:14:39,x,Waiting for my Handbag for days now. The delivery estimate keeps changing.,2,Mumbai
+SOC-ORD-017-0078-0-1,h38714226,,2026-10-25T00:31:39,instagram,"Disappointed with the quality, the Mixer Grinder 500W malfunctioned on day two. Very frustrating experience!",4,Chennai
+SOC-ORD-017-0089-0-0,h29508668,CUST-00853,2026-10-22T08:47:15,x,Ordered Air Fryer 4L and it still has not reached me. The promised date passed 2 days ago.,0,Delhi
+SOC-ORD-017-0092-0-0,h11518988,,2026-10-25T00:32:25,facebook,"Second Induction Cooktop that failed on me, it just stopped heating and the motor smells burnt.",1,Pune
+SOC-pos-17-6,h65585360,,2026-10-18T18:22:08,x,App is easy to use and payment was instant.,2,Mumbai
+SOC-pos-17-8,h35719312,,2026-10-18T06:03:02,x,App is easy to use and payment was instant.,0,Pune
+SOC-pos-17-10,h75109036,,2026-10-18T15:45:27,x,App is easy to use and payment was instant.,0,Chennai
+SOC-neu-17-1,h55581835,,2026-10-18T14:15:38,x,"Delivery was on time, the product is fine for the price.",2,Bengaluru
+SOC-neu-17-2,h53855786,,2026-10-18T12:25:48,x,Received the order as expected.,1,Chennai
+SOC-bg17-2-1,h07235690,,2026-10-19T14:06:51,instagram,Again: Support keeps saying the refund is processing but nothing has come to my account. Very frustrating experience!,4,Chennai
+SOC-bg17-4-0,h12929069,,2026-10-18T15:00:21,facebook,"Support response time is terrible, nobody follows up. Please look into this.",3,Delhi
+SOC-ORD-018-0006-0-0,h54304545,,2026-10-22T21:17:34,instagram,"Delivery keeps getting delayed, tracking has shown the same status for 1 days.",4,Mumbai
+SOC-ORD-018-0010-0-0,h08356249,,2026-10-22T06:15:29,facebook,The shipment of my Wall Clock is stuck and delivery is way past the promised date. Hope this gets fixed soon.,2,Pune
+SOC-ORD-018-0012-0-0,h35084822,CUST-01282,2026-10-27T21:12:10,facebook,"Product quality is not as described, the Electric Kettle 1.8L is faulty. Please look into this.",4,Mumbai
+SOC-ORD-018-0074-0-0,h79847792,,2026-10-22T18:36:22,facebook,Order delayed by 2 days with no proactive update from the company. Will think twice before ordering again.,2,Mumbai
+SOC-neu-18-0,h85658948,,2026-10-19T21:00:20,x,"Product is okay, does the job.",2,Pune
+SOC-bg18-2-1,h60303771,,2026-10-19T21:57:57,x,"Again: Cannot browse anything, the app crashed three times today.",3,Pune
+SOC-crash18-7.7.4-Android14-Android-0-1,h59872480,,2026-10-19T19:52:25,instagram,The app keeps crashing whenever I open it. Hope this gets fixed soon.,4,Pune
+SOC-ORD-019-0003-0-1,h93891871,,2026-10-27T09:30:38,facebook,"The Mixer Grinder 500W died within a week. Looks like a bad batch, the heating stopped completely. Hope this gets fixed soon.",3,Delhi
+SOC-ORD-019-0006-0-0,h04800476,CUST-01155,2026-10-20T23:51:33,instagram,Payment failed at checkout and I could not place my order for USB-C Fast Charger.,0,Delhi
+SOC-ORD-019-0047-0-0,h24432064,,2026-10-24T15:06:28,facebook,"Disappointed with the quality, the Handbag malfunctioned on day two. Not happy.",3,Jaipur
+SOC-ORD-019-0101-0-0,h54279596,,2026-10-23T21:10:30,facebook,"Delivery keeps getting delayed, tracking has shown the same status for 1 days.",1,Mumbai
+SOC-pos-19-2,h52100556,,2026-10-20T09:46:40,x,"Good value for money, will order again.",3,Delhi
+SOC-pos-19-6,h20006024,,2026-10-20T10:31:11,x,Smooth checkout and the order came a day early. Loved it.,1,Delhi
+SOC-pos-19-8,h34541737,,2026-10-20T11:04:32,x,"Refund was processed quickly when I returned an item, great service.",1,Delhi
+SOC-bg19-1-0,h35170904,,2026-10-20T07:22:21,facebook,"Login screen keeps loading forever, then the app force closes.",2,Jaipur
+SOC-bg19-2-1,h39811798,CUST-00405,2026-10-20T22:15:25,facebook,The Non-stick Cookware Set I received is defective and stopped working within a few days. Very frustrating experience!,2,Mumbai
+SOC-bg19-7-0,h65853169,CUST-01234,2026-10-20T10:22:27,facebook,"Support response time is terrible, nobody follows up.",1,Jaipur
+SOC-ORD-020-0015-0-0,h76266800,,2026-10-23T22:41:50,x,"Delivery delayed because of jams and road closures in Mumbai, still waiting for Mixer Grinder 500W. Please look into this.",2,Mumbai
+SOC-ORD-020-0055-0-1,h74424478,CUST-01046,2026-10-26T06:15:43,x,"Poor build quality on the Power Bank 20000mAh, it feels cheap and broke quickly.",2,Delhi
+SOC-ORD-020-0064-0-1,h50982021,,2026-10-24T06:07:25,instagram,Ordered Running Shoes and it still has not reached me. The promised date passed 2 days ago. Not happy.,2,Mumbai
+SOC-ORD-020-0105-0-1,h98728380,CUST-00480,2026-10-24T02:46:22,instagram,Again: My Webcam HD arrived 2 days late. Really disappointed with the delivery.,4,Mumbai
+SOC-pos-20-6,h09067204,,2026-10-21T14:18:52,x,Excellent quality and fast delivery. Very happy with my purchase.,2,Bengaluru
+SOC-neu-20-0,h45257721,,2026-10-21T12:09:39,x,"Delivery was on time, the product is fine for the price.",0,Bengaluru
+SOC-bg20-0-0,h48039754,,2026-10-21T19:23:45,instagram,"Poor build quality on the Electric Kettle 1.8L, it feels cheap and broke quickly. Very frustrating experience!",2,Delhi
+SOC-bg20-1-0,h57021061,CUST-01012,2026-10-21T20:14:15,facebook,"Refund is still pending, nobody can tell me when the money will be credited. Will think twice before ordering again.",3,Mumbai
+SOC-ORD-021-0005-0-1,h13724726,,2026-10-25T10:39:59,instagram,Again: Waiting for my Induction Cooktop for days now. The delivery estimate keeps changing.,4,Mumbai
+SOC-ORD-021-0008-0-0,h62422320,,2026-10-25T11:46:34,instagram,"Delivery keeps getting delayed, tracking has shown the same status for 2 days. Hope this gets fixed soon.",3,Bengaluru
+SOC-ORD-021-0030-0-1,h77394881,,2026-10-25T11:46:17,instagram,Waiting for my Electric Kettle 1.8L for days now. The delivery estimate keeps changing. Please look into this.,5,Bengaluru
+SOC-ORD-021-0045-0-0,h16323930,,2026-10-24T14:53:09,x,Why is SwiftShip handling deliveries in Mumbai? My Induction Cooktop is late and tracking is wrong.,3,Mumbai
+SOC-ORD-021-0089-0-1,h57972420,,2026-10-29T17:32:50,instagram,Item arrived damaged and does not work properly. #customerservice,4,Jaipur
+SOC-neu-21-0,h83364739,,2026-10-22T12:50:47,x,Received the order as expected.,1,Delhi
+SOC-ORD-022-0020-0-0,h62880870,,2026-10-26T18:53:50,x,Order delayed by 2 days with no proactive update from the company.,4,Delhi
+SOC-ORD-022-0023-0-0,h81552123,CUST-00754,2026-10-26T00:21:38,instagram,Order delayed by 2 days with no proactive update from the company. Very frustrating experience!,1,Mumbai
+SOC-pos-22-8,h32221130,,2026-10-23T12:52:13,x,App is easy to use and payment was instant.,2,Delhi
+SOC-pos-22-12,h32275840,,2026-10-23T11:40:34,x,"Refund was processed quickly when I returned an item, great service.",0,Mumbai
+SOC-ORD-023-0029-0-0,h24146873,,2026-10-27T07:38:16,x,Order delayed by 2 days with no proactive update from the company. Very frustrating experience!,2,Bengaluru
+SOC-pos-23-1,h32890007,,2026-10-24T20:45:36,x,The Electric Kettle 1.8L is exactly as described. Support was also helpful.,3,Chennai
+SOC-pos-23-2,h73264405,,2026-10-24T18:28:32,x,"Good value for money, will order again.",1,Chennai
+SOC-pos-23-4,h85453370,,2026-10-24T09:09:03,x,"Great product, arrived on time and works perfectly.",1,Delhi
+SOC-pos-23-5,h51156042,,2026-10-24T12:53:49,x,"Good value for money, will order again.",2,Chennai
+SOC-pos-23-6,h87143424,,2026-10-24T11:39:30,x,Impressed with the packaging and quick delivery.,3,Delhi
+SOC-pos-23-8,h25413059,,2026-10-24T19:39:00,x,Smooth checkout and the order came a day early. Loved it.,1,Delhi
+SOC-bg23-0-1,h46166866,CUST-00253,2026-10-25T02:09:51,x,App freezes on the home screen and closes by itself.,0,Mumbai
+SOC-ORD-024-0010-0-0,h50888613,,2026-10-29T08:30:24,instagram,"My Induction Cooktop stopped working after two days, there is a burning smell from the heating element. Please look into this.",3,Mumbai
+SOC-ORD-024-0087-0-0,h72130277,,2026-10-27T21:50:20,x,Ordered Wall Clock and it still has not reached me. The promised date passed 1 days ago.,6,Mumbai
+SOC-pos-24-1,h84504159,,2026-10-25T19:45:00,x,"Great product, arrived on time and works perfectly.",5,Chennai
+SOC-pos-24-3,h92694007,,2026-10-25T21:46:58,x,Impressed with the packaging and quick delivery.,4,Jaipur
+SOC-pos-24-7,h50756306,,2026-10-25T06:28:03,x,The Induction Cooktop is exactly as described. Support was also helpful.,3,Mumbai
+SOC-pos-24-9,h75465125,,2026-10-25T20:53:55,x,The Non-stick Cookware Set is exactly as described. Support was also helpful.,3,Bengaluru
+SOC-pos-24-10,h70133330,,2026-10-25T14:49:40,x,"Refund was processed quickly when I returned an item, great service.",3,Pune
+SOC-neu-24-0,h18006922,,2026-10-25T18:05:28,x,"Product is okay, does the job.",3,Mumbai
+SOC-neu-24-2,h08900194,,2026-10-25T20:59:17,x,"Product is okay, does the job.",2,Jaipur
+SOC-bg24-0-1,h52363069,,2026-10-25T22:37:41,x,"Delivery keeps getting delayed, tracking has shown the same status for 3 days. Please look into this.",5,Chennai
+SOC-bg24-3-0,h73273219,,2026-10-25T11:28:07,x,"Disappointed with the quality, the Webcam HD malfunctioned on day two. #customerservice",4,Pune
+SOC-bg24-4-1,h99563185,,2026-10-25T12:47:32,x,"Product quality is not as described, the Bluetooth Speaker is faulty. Please look into this.",2,Mumbai
+SOC-bg24-9-0,h32307431,,2026-10-25T13:17:49,x,"Support response time is terrible, nobody follows up. Not happy.",2,Mumbai
+SOC-bg24-12-0,h83471333,,2026-10-25T07:26:32,facebook,"Very poor packaging, too much plastic and the seal was broken. Please look into this.",3,Bengaluru
+SOC-crash24-7.8.0-Android14-Android-1-0,h64040956,CUST-00469,2026-10-25T14:06:44,x,"After the update the app crashes constantly on my Android 14 phone, please fix this.",3,Bengaluru
+SOC-ORD-025-0011-0-0,h67174730,CUST-00238,2026-10-26T12:05:53,facebook,"Paying with my credit card fails with a timeout error every time since yesterday, UPI works fine. #customerservice",6,Mumbai
+SOC-ORD-025-0056-0-1,h23720789,CUST-00597,2026-10-26T19:34:21,x,Payment failed at checkout and I could not place my order for Handbag. Will think twice before ordering again.,3,Mumbai
+SOC-ORD-025-0060-0-1,h90249551,,2026-10-28T21:41:38,facebook,"Again: Delivery keeps getting delayed, tracking has shown the same status for 2 days. Very frustrating experience!",4,Mumbai
+SOC-pos-25-2,h98513345,,2026-10-26T12:49:28,x,"Great product, arrived on time and works perfectly.",2,Pune
+SOC-pos-25-6,h77950205,,2026-10-26T11:26:22,x,Smooth checkout and the order came a day early. Loved it.,0,Pune
+SOC-pos-25-8,h21088106,,2026-10-26T21:06:59,x,"Good value for money, will order again.",1,Mumbai
+SOC-pos-25-10,h26621968,,2026-10-26T17:28:30,x,Impressed with the packaging and quick delivery.,1,Bengaluru
+SOC-bg25-0-0,h84630977,,2026-10-26T08:33:23,instagram,Order delayed by 2 days with no proactive update from the company.,3,Delhi
+SOC-bg25-2-0,h90525888,,2026-10-26T13:15:36,x,"Login screen keeps loading forever, then the app force closes. Hope this gets fixed soon.",1,Jaipur
+SOC-bg25-11-0,h44265736,CUST-00523,2026-10-26T18:22:29,facebook,Packaging was torn and the box looked tampered with.,3,Delhi
+SOC-crash25-7.8.0-Android12-Android-0-0,h60812290,CUST-00585,2026-10-26T20:50:40,x,App freezes on the home screen and closes by itself. #customerservice,3,Mumbai
+SOC-crash25-7.8.0-Android14-Android-1-0,h79047225,,2026-10-26T07:59:24,x,App freezes on the home screen and closes by itself. Please look into this.,3,Delhi
+SOC-ORD-026-0031-0-0,h93121967,,2026-10-28T00:00:16,facebook,"Tried paying three times, checkout keeps failing. Very frustrating. Will think twice before ordering again.",1,Bengaluru
+SOC-ORD-026-0067-0-0,h80398633,,2026-10-27T19:00:22,facebook,"My payment did not go through, the app just showed an error and asked me to retry. Hope this gets fixed soon.",3,Chennai
+SOC-neu-26-1,h25152350,,2026-10-27T08:34:29,x,"Delivery was on time, the product is fine for the price.",1,Delhi
+SOC-bg26-1-0,h22715751,,2026-10-27T11:18:55,instagram,Parcel delayed again. Nobody is telling me when it will actually be delivered.,3,Mumbai
+SOC-bg26-4-0,h58197716,,2026-10-27T09:11:55,facebook,"Refund is still pending, nobody can tell me when the money will be credited. Please look into this.",1,Mumbai
+SOC-pos-27-7,h41737606,,2026-10-28T21:05:19,x,Impressed with the packaging and quick delivery.,2,Mumbai
+SOC-neu-27-0,h53140607,,2026-10-28T18:39:17,x,Received the order as expected.,3,Delhi
+SOC-bg27-9-0,h04956967,,2026-10-28T09:00:09,instagram,Chat support closed my ticket without resolving the issue. #customerservice,6,Jaipur
+SOC-bg27-11-0,h66686019,,2026-10-28T07:54:19,x,Coupon code failed and the final price was higher than advertised. #customerservice,1,Jaipur
+SOC-burst27-0,h87171659,CUST-00460,2026-10-28T13:52:26,instagram,"Outer box was damaged when it reached me, product inside was loose. Very frustrating experience!",2,Delhi
+SOC-burst27-1,h41871703,,2026-10-28T10:29:15,facebook,"Very poor packaging, too much plastic and the seal was broken. #customerservice",4,Delhi
+SOC-burst27-2,h15145494,CUST-00599,2026-10-28T15:59:00,x,"Item was packed poorly, the box arrived crushed. Will think twice before ordering again.",6,Chennai
+SOC-burst27-3,h48362356,CUST-00823,2026-10-28T12:46:24,instagram,"Item was packed poorly, the box arrived crushed. #customerservice",2,Pune
+SOC-burst27-4,h02380569,,2026-10-28T15:10:38,instagram,"Very poor packaging, too much plastic and the seal was broken. Not happy.",2,Chennai
+SOC-burst27-5,h65550578,,2026-10-28T12:33:49,instagram,"Outer box was damaged when it reached me, product inside was loose. Please look into this.",4,Jaipur
+SOC-burst27-6,h91453580,,2026-10-28T13:05:37,instagram,"Outer box was damaged when it reached me, product inside was loose.",3,Bengaluru
+SOC-burst27-7,h27246670,CUST-00158,2026-10-28T13:06:31,instagram,"Item was packed poorly, the box arrived crushed.",2,Delhi
+SOC-burst27-8,h95205105,,2026-10-28T13:19:35,instagram,Packaging was torn and the box looked tampered with. Very frustrating experience!,1,Mumbai
+SOC-ORD-028-0028-0-0,h12625698,,2026-10-29T23:34:17,facebook,Payment failed at checkout and I could not place my order for Cotton T-Shirt.,2,Bengaluru
+SOC-ORD-028-0063-0-0,h57466463,CUST-00253,2026-10-29T20:16:41,facebook,"Paying with my credit card fails with a timeout error every time since yesterday, UPI works fine. Please look into this.",3,Mumbai
+SOC-ORD-028-0071-0-0,h02987803,,2026-10-29T17:26:18,x,"Paying with my credit card fails with a timeout error every time since yesterday, UPI works fine.",5,Bengaluru
+SOC-pos-28-1,h06766407,,2026-10-29T12:33:24,x,The Induction Cooktop is exactly as described. Support was also helpful.,4,Bengaluru
+SOC-neu-28-3,h64071617,,2026-10-29T11:34:50,x,"Delivery was on time, the product is fine for the price.",2,Bengaluru
+SOC-bg28-1-1,h31173880,,2026-10-29T23:11:44,facebook,"My payment did not go through, the app just showed an error and asked me to retry. #customerservice",3,Pune
+SOC-bg28-7-0,h65264810,,2026-10-29T14:09:30,x,Support agent was unhelpful and kept transferring my call. #customerservice,2,Chennai
+SOC-crash28-7.8.0-Android14-Android-1-1,h86970132,CUST-01150,2026-10-30T02:51:15,x,"The latest app update 7.8.0 is broken, it force closes every time I open the cart. Very frustrating experience!",2,Bengaluru
+SOC-crash28-7.8.0-Android14-Android-2-0,h79129838,,2026-10-29T08:46:09,instagram,App started crashing right after the latest update on my Android 14 phone. Hope this gets fixed soon.,5,Mumbai
+SOC-pos-29-2,h08378535,,2026-10-30T06:26:41,x,Excellent quality and fast delivery. Very happy with my purchase.,4,Chennai
+SOC-pos-29-5,h14036541,,2026-10-30T06:22:45,x,"Great product, arrived on time and works perfectly.",1,Chennai
+SOC-pos-29-8,h04364304,,2026-10-30T19:32:42,x,"Good value for money, will order again.",1,Delhi
+SOC-bg29-2-0,h10412705,,2026-10-30T22:14:41,instagram,"Refund is still pending, nobody can tell me when the money will be credited. Very frustrating experience!",1,Chennai
+SOC-bg29-6-0,h94242275,,2026-10-30T12:36:19,x,No reply from the helpline for two days on my open ticket.,3,Delhi
+SOC-crash29-7.8.0-Android14-Android-0-0,h92181601,CUST-00750,2026-10-30T13:29:55,facebook,"The latest app update 7.8.0 is broken, it force closes every time I open the cart. Please look into this.",3,Mumbai
+SOC-crash29-7.8.0-Android14-Android-1-0,h11483774,CUST-01164,2026-10-30T10:47:20,instagram,"Login screen keeps loading forever, then the app force closes.",4,Delhi
+SOC-crash29-7.8.0-Android14-Android-4-0,h73875015,,2026-10-30T11:22:16,x,App is very slow and hangs while loading product pages. Hope this gets fixed soon.,1,Bengaluru
+SOC-crash29-7.8.0-Android14-Android-5-0,h05873575,,2026-10-30T16:21:18,instagram,"The latest app update 7.8.0 is broken, it force closes every time I open the cart. Will think twice before ordering again.",3,Jaipur

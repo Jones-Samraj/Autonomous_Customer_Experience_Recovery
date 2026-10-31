@@ -1,0 +1,127 @@
+{
+  "simulated": true,
+  "description": "Ground truth for the simulated e-commerce benchmark. Hidden from the investigation agents.",
+  "issues": [
+    {
+      "id": "GT-DELIVERY",
+      "aspect": "delivery",
+      "category": "Delivery Delays",
+      "onset_at": "2026-10-17T09:00:00",
+      "cause_type": "logistics_partner_change",
+      "cause_label": "New last-mile partner SwiftShip performs poorly in Mumbai",
+      "affected_scope": {
+        "delivery_partner": [
+          "SwiftShip"
+        ]
+      },
+      "acceptable_interventions": [
+        "reassign_delivery_partner",
+        "dynamic_rerouting_surge_capacity"
+      ]
+    },
+    {
+      "id": "GT-PAYMENT",
+      "aspect": "payment",
+      "category": "Payment Failures",
+      "onset_at": "2026-10-24T06:00:00",
+      "cause_type": "gateway_degradation",
+      "cause_label": "PayFast card gateway 3DS timeouts",
+      "affected_scope": {
+        "payment_method": [
+          "Card"
+        ]
+      },
+      "acceptable_interventions": [
+        "payment_gateway_failover"
+      ]
+    },
+    {
+      "id": "GT-APP",
+      "aspect": "app",
+      "category": "Mobile App Crashes",
+      "onset_at": "2026-10-22T08:00:00",
+      "cause_type": "release_regression",
+      "cause_label": "Mobile app 7.8.0 crashes on Android 14",
+      "affected_scope": {
+        "app_version": [
+          "7.8.0"
+        ],
+        "os_version": [
+          "Android 14"
+        ]
+      },
+      "acceptable_interventions": [
+        "temporary_release_rollback",
+        "hotfix_release"
+      ]
+    },
+    {
+      "id": "GT-PRODUCT_QUALITY",
+      "aspect": "product_quality",
+      "category": "Product Quality",
+      "onset_at": "2026-10-13T00:00:00",
+      "cause_type": "supplier_quality",
+      "cause_label": "Apex Home Appliances batch B-2207 heating element defect",
+      "affected_scope": {
+        "supplier": [
+          "Apex Home Appliances"
+        ],
+        "batch": [
+          "B-2207"
+        ]
+      },
+      "acceptable_interventions": [
+        "supplier_batch_hold_recall"
+      ]
+    },
+    {
+      "id": "GT-REFUND",
+      "aspect": "refund",
+      "category": "Refund Processing Delays",
+      "onset_at": "2026-10-18T00:00:00",
+      "cause_type": "refund_pipeline_backlog",
+      "cause_label": "Refund service v2 ledger migration stalls card refunds",
+      "affected_scope": {
+        "refund_type": [
+          "original"
+        ]
+      },
+      "acceptable_interventions": [
+        "refund_backlog_clearance"
+      ]
+    }
+  ],
+  "non_issues": [
+    {
+      "aspect": "pricing",
+      "note": "steady baseline with a two-day blip"
+    },
+    {
+      "aspect": "packaging",
+      "note": "one-day social burst, not sustained"
+    }
+  ],
+  "decoy_causes": [
+    {
+      "id": "F-TRAFFIC-MUMBAI",
+      "cause_type": "traffic_congestion",
+      "label": "Eastern Freeway repair congestion in Mumbai (minor contributor)",
+      "issue": "delivery",
+      "note": "real but minor/non-causal"
+    },
+    {
+      "id": "F-STAFFING-DECOY",
+      "cause_type": "support_capacity",
+      "label": "Holiday roster reduces support agents (no KPI effect)",
+      "issue": null,
+      "note": "no effect on customer KPIs"
+    }
+  ],
+  "cause_labels": {
+    "refund_pipeline_backlog": "Refund pipeline backlog",
+    "release_regression": "Software release regression",
+    "logistics_partner_change": "Last-mile partner change",
+    "supplier_quality": "Supplier quality change",
+    "gateway_degradation": "Payment gateway degradation"
+  }
+}

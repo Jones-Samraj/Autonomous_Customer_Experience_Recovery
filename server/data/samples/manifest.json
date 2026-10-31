@@ -1,0 +1,18 @@
+{
+  "simulated": true,
+  "label": "SIMULATED DATA - not real customers",
+  "anchor": "2026-10-31T00:00:00",
+  "seed": 7,
+  "generated_at": "2026-10-31T04:55:50.578032",
+  "files": {
+    "reviews": 582,
+    "tickets": 319,
+    "social": 251,
+    "surveys": 127,
+    "transactions": 3087,
+    "telemetry": 207,
+    "metrics": 390,
+    "events": 106,
+    "releases": 22
+  }
+}

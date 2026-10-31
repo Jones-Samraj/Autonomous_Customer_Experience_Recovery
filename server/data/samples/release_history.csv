@@ -1,0 +1,23 @@
+release_id,component,version,title,change_summary,deployed_at,scope_json,rollback_available,risk_level
+REL-001,mobile-app,7.7.4,Android maintenance release,Android maintenance release,2026-10-03T10:00:00,"{""platform"": ""Android""}",True,low
+REL-002,refund-service,1.9.3,Refund status API fixes,Refund status API fixes,2026-10-04T10:00:00,{},True,low
+REL-003,pricing-engine,2.2.0,Coupon stacking rules update,Coupon stacking rules update,2026-10-05T10:00:00,{},True,low
+REL-004,recommendation,6.3.0,Ranking model refresh,Ranking model refresh,2026-10-06T10:00:00,{},True,low
+REL-005,checkout-service,3.13.2,Address form validation,Address form validation,2026-10-07T10:00:00,{},True,low
+REL-006,catalog-service,8.1.0,Catalog image pipeline,Catalog image pipeline,2026-10-09T10:00:00,{},True,low
+REL-007,search,2.4.0,Autocomplete improvements,Autocomplete improvements,2026-10-10T10:00:00,{},True,low
+REL-008,payments-sdk,4.2.0,UPI intent flow cleanup,UPI intent flow cleanup,2026-10-11T10:00:00,{},True,medium
+REL-009,notifications,1.12.0,Push notification batching,Push notification batching,2026-10-12T10:00:00,{},True,low
+REL-010,ios-app,7.7.5,iOS maintenance release,iOS maintenance release,2026-10-13T10:00:00,"{""platform"": ""iOS""}",True,low
+REL-011,loyalty,3.0.0,Loyalty tiers v3,Loyalty tiers v3,2026-10-14T10:00:00,{},True,medium
+REL-012,inventory-sync,1.7.0,Warehouse stock sync,Warehouse stock sync,2026-10-15T10:00:00,{},True,low
+REL-013,support-portal,4.5.0,Agent console refresh,Agent console refresh,2026-10-16T10:00:00,{},True,low
+REL-014,catalog-service,8.2.0,Catalog attribute schema,Catalog attribute schema,2026-10-17T10:00:00,{},True,low
+REL-015,api-gateway,12.4.0,Rate limit tuning,Rate limit tuning,2026-10-18T10:00:00,{},True,medium
+REL-016,refund-service,2.0.0,Refund service v2 - new ledger sync and batch processing,Refund service v2 - new ledger sync and batch processing,2026-10-18T10:00:00,{},True,high
+REL-017,logistics-routing,5.2.0,Routing optimiser tweak for last-mile assignment,Routing optimiser tweak for last-mile assignment,2026-10-21T10:00:00,{},True,medium
+REL-018,mobile-app,7.8.0,Android release: new image gallery library and cart redesign,Android release: new image gallery library and cart redesign,2026-10-22T10:00:00,"{""platform"": ""Android"", ""app_version"": ""7.8.0""}",True,high
+REL-019,checkout-service,3.14.0,Checkout orchestration refactor,Checkout orchestration refactor,2026-10-23T10:00:00,{},True,medium
+REL-020,auth-service,5.1.0,Session token refresh,Session token refresh,2026-10-26T10:00:00,{},True,low
+REL-021,web-storefront,14.2.0,Storefront performance work,Storefront performance work,2026-10-27T10:00:00,{},True,low
+REL-022,analytics-pipeline,9.0.0,Event pipeline upgrade,Event pipeline upgrade,2026-10-28T10:00:00,{},True,low

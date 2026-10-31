@@ -1,0 +1,25 @@
+# secrets and local configuration
+.env
+!.env.example
+
+# python
+server/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# local databases and logs (the SIMULATED sample CSVs in server/data/samples are kept on purpose)
+server/data/*.db
+server/data/*.db-*
+*.log
+
+# node
+client/node_modules/
+client/dist/
+
+# editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store

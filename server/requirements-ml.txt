@@ -1,0 +1,5 @@
+# Optional upgrades. The platform runs without these (TF-IDF embeddings, lexicon aspect extraction,
+# built-in change-point detection) and switches automatically when they are installed.
+sentence-transformers>=3.0   # MiniLM semantic embeddings (EMBEDDING_BACKEND=auto|sentence-transformers)
+spacy>=3.7                   # lemma-based aspect extraction (python -m spacy download en_core_web_sm)
+ruptures>=1.1                # change-point detection cross-check
