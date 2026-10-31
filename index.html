@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>TEAM DEEP-X — CX Sentinel AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════
+     INLINE SVG SPRITE (Crisp vectors, zero image files)
+═══════════════════════════════════════════════════════ -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+  <symbol id="i-arrow-r" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+  <symbol id="i-chev-l" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></symbol>
+  <symbol id="i-chev-r" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></symbol>
+  <symbol id="i-maximize" viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></symbol>
+  <!-- lifecycle steps -->
+  <symbol id="i-signal" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/></symbol>
+  <symbol id="i-cluster" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="12" cy="18" r="3"/><line x1="8.5" y1="7.5" x2="10.5" y2="15.5"/><line x1="15.5" y1="7.5" x2="13.5" y2="15.5"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+  <symbol id="i-brain" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></symbol>
+  <symbol id="i-impact" viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/><line x1="2" y1="20" x2="22" y2="20"/></symbol>
+  <symbol id="i-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+  <symbol id="i-human" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M16 11l2 2 4-4"/></symbol>
+  <symbol id="i-verify" viewBox="0 0 24 24"><path d="M21.5 2v6h-6"/><path d="M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></symbol>
+  <!-- Differentiator icons -->
+  <symbol id="i-graph" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><line x1="12" y1="3" x2="12" y2="21"/><polyline points="4 7 12 5 20 7"/><path d="M4 7l-2 7a3 3 0 0 0 6 0L6 7z"/><path d="M20 7l-2 7a3 3 0 0 0 6 0L22 7z"/><line x1="8" y1="21" x2="16" y2="21"/></symbol>
+  <symbol id="i-rupee" viewBox="0 0 24 24"><line x1="6" y1="5" x2="18" y2="5"/><line x1="6" y1="9" x2="18" y2="9"/><path d="M6 5h7a4 4 0 0 1 0 8H6"/><line x1="11" y1="13" x2="17" y2="21"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></symbol>
+  <symbol id="i-stack" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></symbol>
+  <symbol id="i-kpi" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+  <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></symbol>
+</svg>
+
+<!-- ═══════════════════════════════════════════════════════
+     PRESENTATION SHELL
+═══════════════════════════════════════════════════════ -->
+<div id="presentation">
+
+  <!-- TOP BAR ─────────────────────────────────────────── -->
+  <header id="topbar">
+    <div class="tb-left">
+      <div class="team-badge">TEAM DEEP-X</div>
+      <span class="tb-brand">CX Sentinel AI</span>
+    </div>
+    <div class="tb-sep"></div>
+    <div class="tb-center">
+      <span class="theme-pill">Theme: AI for Business</span>
+      <span class="problem-pill">Problem: Autonomous Customer Experience Recovery</span>
+    </div>
+    <div class="tb-right">
+      <span class="live-status"><span class="live-dot"></span>HACKATHON DECK</span>
+      <span id="slide-counter">1 / 5</span>
+    </div>
+  </header>
+
+  <!-- PROGRESS ────────────────────────────────────────── -->
+  <div id="progress-wrap"><div id="progress-bar" style="width:20%"></div></div>
+
+  <!-- SLIDES ──────────────────────────────────────────── -->
+  <div id="slide-container">
+
+    <!-- ══════════════════════════════════════════════════
+         SLIDE 1  |  Title & Problem Statement
+    ══════════════════════════════════════════════════ -->
+    <section class="slide" id="sl-0">
+      <div class="slide-inner s1-layout">
+
+        <!-- Top Meta Tags -->
+        <div class="hero-top-meta">
+          <div class="meta-tag meta-team">
+            <svg class="icon icon-14" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-shield"/></svg>
+            <span>TCS AI Engineering Hackathon</span>
+          </div>
+          <div class="meta-tag meta-theme">
+            <span>Theme: AI for Business</span>
+          </div>
+          <div class="meta-tag meta-problem">
+            <span>Problem Statement: Autonomous Customer Experience Recovery</span>
+          </div>
+        </div>
+
+        <!-- Hero Branding Center -->
+        <div class="hero-center">
+          <div class="hero-title-group">
+            <span class="hero-eyebrow">Enterprise Platform Pitch</span>
+            <h1 class="hero-title">CX Sentinel AI</h1>
+            <p class="hero-subtitle">Autonomous Customer Experience Intelligence &amp; Recovery</p>
+          </div>
+
+          <div class="hero-quote-box">
+            <div class="quote-accent-bar"></div>
+            <p class="hero-quote">
+              "From complaint spike to verified recovery, with evidence and human approval."
+            </p>
+          </div>
+        </div>
+
+        <!-- 8-Step Closed Loop Visual Strip -->
+        <div class="hero-lifecycle-strip">
+          <div class="strip-header">
+            <div class="strip-badge">
+              <svg class="icon icon-14" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-refresh"/></svg>
+              <span>Closed-loop recovery</span>
+            </div>
+            <span class="strip-sub">8 steps, human in the loop</span>
+          </div>
+
+          <div class="strip-steps">
+            <div class="strip-step"><span class="step-num">1</span><span class="step-txt">Signal</span></div>
+            <div class="strip-sep">›</div>
+            <div class="strip-step"><span class="step-num">2</span><span class="step-txt">Issue</span></div>
+            <div class="strip-sep">›</div>
+            <div class="strip-step"><span class="step-num">3</span><span class="step-txt">Segment</span></div>
+            <div class="strip-sep">›</div>
+            <div class="strip-step"><span class="step-num">4</span><span class="step-txt">Root Cause</span></div>
+            <div class="strip-sep">›</div>
+            <div class="strip-step"><span class="step-num">5</span><span class="step-txt">Impact</span></div>
+            <div class="strip-sep">›</div>
+            <div class="strip-step"><span class="step-num">6</span><span class="step-txt">Intervention</span></div>
+            <div class="strip-sep">›</div>
+            <div class="strip-step human-step"><span class="step-num">7</span><span class="step-txt">Execution (Human)</span></div>
+            <div class="strip-sep">›</div>
+            <div class="strip-step"><span class="step-num">8</span><span class="step-txt">Verification</span></div>
+          </div>
+        </div>
+
+        <div class="hero-footer-bar">
+          <span class="hfb-item">✓ Causal Knowledge Graphs</span>
+          <span class="hfb-dot">•</span>
+          <span class="hfb-item">✓ Counter-Evidence Scoring</span>
+          <span class="hfb-dot">•</span>
+          <span class="hfb-item">✓ Revenue &amp; Churn Risk Quantified</span>
+          <span class="hfb-dot">•</span>
+          <span class="hfb-item">✓ Enterprise API Orchestration</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SLIDE 2  |  The Gap in Today's Tools
+    ══════════════════════════════════════════════════ -->
+    <section class="slide" id="sl-1">
+      <div class="slide-inner s2-layout">
+
+        <!-- Slide Header -->
+        <div class="slide-header">
+          <div class="header-left">
+            <span class="sl-pill">Slide 02 / 05</span>
+            <h2 class="sl-heading">The gap in today's tools</h2>
+          </div>
+          <div class="header-punchline">
+            They count complaints. <strong>CX Sentinel AI resolves them.</strong>
+          </div>
+        </div>
+
+        <!-- 2 Comparison Columns -->
+        <div class="compare-columns">
+
+          <!-- Left Column: Today's tools (Failures) -->
+          <div class="comp-col today-tools">
+            <div class="col-header">
+              <div class="col-icon-wrap bad-wrap">
+                <svg class="icon icon-20" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-x"/></svg>
+              </div>
+              <div class="col-titles">
+                <h3 class="col-title col-title-bad">Today's tools</h3>
+                <span class="col-sub">Fragmented, reactive, zero causal intelligence</span>
+              </div>
+            </div>
+
+            <div class="cards-stack">
+              <div class="comp-card bad-card">
+                <div class="card-status-icon bad-status">
+                  <svg class="icon icon-16" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-x"/></svg>
+                </div>
+                <div class="card-content">
+                  <div class="card-name">VoC / XM platforms</div>
+                  <div class="card-desc">Sentiment and topics; root cause is a guess</div>
+                </div>
+              </div>
+
+              <div class="comp-card bad-card">
+                <div class="card-status-icon bad-status">
+                  <svg class="icon icon-16" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-x"/></svg>
+                </div>
+                <div class="card-content">
+                  <div class="card-name">Helpdesk analytics</div>
+                  <div class="card-desc">One channel, reactive, no usage or ops data</div>
+                </div>
+              </div>
+
+              <div class="comp-card bad-card">
+                <div class="card-status-icon bad-status">
+                  <svg class="icon icon-16" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-x"/></svg>
+                </div>
+                <div class="card-content">
+                  <div class="card-name">Product and AIOps tools</div>
+                  <div class="card-desc">Show systems or behaviour, not who is hurt</div>
+                </div>
+              </div>
+
+              <div class="comp-card bad-card">
+                <div class="card-status-icon bad-status">
+                  <svg class="icon icon-16" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-x"/></svg>
+                </div>
+                <div class="card-content">
+                  <div class="card-name">Generic LLM chat</div>
+                  <div class="card-desc">Fluent answers with no evidence trail</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: CX Sentinel AI (Solution) -->
+          <div class="comp-col cx-sentinel">
+            <div class="col-header">
+              <div class="col-icon-wrap good-wrap">
+                <svg class="icon icon-20" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-check"/></svg>
+              </div>
+              <div class="col-titles">
+                <h3 class="col-title col-title-good">CX Sentinel AI</h3>
+                <span class="col-sub">Causal, autonomous, and mathematically verified</span>
+              </div>
+            </div>
+
+            <div class="cards-stack">
+              <div class="comp-card good-card">
+                <div class="card-status-icon good-status">
+                  <svg class="icon icon-16" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-check"/></svg>
+                </div>
+                <div class="card-content">
+                  <div class="card-name">Evidence-graded root cause</div>
+                  <div class="card-desc">Counter-evidence scored, not just sentiment</div>
+                </div>
+              </div>
+
+              <div class="comp-card good-card">
+                <div class="card-status-icon good-status">
+                  <svg class="icon icon-16" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-check"/></svg>
+                </div>
+                <div class="card-content">
+                  <div class="card-name">Segment-level impact</div>
+                  <div class="card-desc">Who is hurt, and revenue and churn at risk</div>
+                </div>
+              </div>
+
+              <div class="comp-card good-card">
+                <div class="card-status-icon good-status">
+                  <svg class="icon icon-16" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-check"/></svg>
+                </div>
+                <div class="card-content">
+                  <div class="card-name">Human-approved action</div>
+                  <div class="card-desc">Fix proposed, approved, then run via API</div>
+                </div>
+              </div>
+
+              <div class="comp-card good-card">
+                <div class="card-status-icon good-status">
+                  <svg class="icon icon-16" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-check"/></svg>
+                </div>
+                <div class="card-content">
+                  <div class="card-name">Closed-loop verification</div>
+                  <div class="card-desc">Re-opens the case if complaints persist</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SLIDE 3  |  The 8-Step Lifecycle
+    ══════════════════════════════════════════════════ -->
+    <section class="slide" id="sl-2">
+      <div class="slide-inner s3-layout">
+
+        <!-- Header -->
+        <div class="slide-header">
+          <div class="header-left">
+            <span class="sl-pill">Slide 03 / 05</span>
+            <h2 class="sl-heading">The 8-step lifecycle</h2>
+          </div>
+          <div class="header-punchline">
+            Autonomous execution with mandatory <strong>Human-in-the-Loop approval</strong>
+          </div>
+        </div>
+
+        <!-- 8 Interactive Lifecycle Cards (4x2 Grid) -->
+        <div class="lifecycle-grid">
+
+          <!-- Step 1 -->
+          <div class="life-card" data-step="1">
+            <div class="lc-top">
+              <span class="lc-num">01</span>
+              <div class="lc-icon-wrap"><svg class="icon icon-18"><use href="#i-signal"/></svg></div>
+            </div>
+            <h3 class="lc-name">Signal</h3>
+            <p class="lc-desc">Ingest reviews, social posts, tickets and system metrics</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="life-card" data-step="2">
+            <div class="lc-top">
+              <span class="lc-num">02</span>
+              <div class="lc-icon-wrap"><svg class="icon icon-18"><use href="#i-cluster"/></svg></div>
+            </div>
+            <h3 class="lc-name">Issue</h3>
+            <p class="lc-desc">Cluster similar complaints into one issue (HDBSCAN)</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="life-card" data-step="3">
+            <div class="lc-top">
+              <span class="lc-num">03</span>
+              <div class="lc-icon-wrap"><svg class="icon icon-18"><use href="#i-target"/></svg></div>
+            </div>
+            <h3 class="lc-name">Segment</h3>
+            <p class="lc-desc">Find who is hurt most: tier, platform or region</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="life-card" data-step="4">
+            <div class="lc-top">
+              <span class="lc-num">04</span>
+              <div class="lc-icon-wrap"><svg class="icon icon-18"><use href="#i-brain"/></svg></div>
+            </div>
+            <h3 class="lc-name">Root Cause</h3>
+            <p class="lc-desc">Hypotheses with evidence for and against each</p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="life-card" data-step="5">
+            <div class="lc-top">
+              <span class="lc-num">05</span>
+              <div class="lc-icon-wrap"><svg class="icon icon-18"><use href="#i-impact"/></svg></div>
+            </div>
+            <h3 class="lc-name">Impact</h3>
+            <p class="lc-desc">Revenue at risk, churn probability and refund cost</p>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="life-card" data-step="6">
+            <div class="lc-top">
+              <span class="lc-num">06</span>
+              <div class="lc-icon-wrap"><svg class="icon icon-18"><use href="#i-tool"/></svg></div>
+            </div>
+            <h3 class="lc-name">Intervention</h3>
+            <p class="lc-desc">Ranked fix options: reroute, credit or roll back</p>
+          </div>
+
+          <!-- Step 7 (Human in loop highlight) -->
+          <div class="life-card human-life-card" data-step="7">
+            <div class="human-highlight-pill">MANDATORY GATE</div>
+            <div class="lc-top">
+              <span class="lc-num">07</span>
+              <div class="lc-icon-wrap"><svg class="icon icon-18"><use href="#i-human"/></svg></div>
+            </div>
+            <h3 class="lc-name">Execution <span class="human-tag">[HUMAN]</span></h3>
+            <p class="lc-desc">A manager approves; the system runs the API actions</p>
+          </div>
+
+          <!-- Step 8 -->
+          <div class="life-card" data-step="8">
+            <div class="lc-top">
+              <span class="lc-num">08</span>
+              <div class="lc-icon-wrap"><svg class="icon icon-18"><use href="#i-verify"/></svg></div>
+            </div>
+            <h3 class="lc-name">Verification</h3>
+            <p class="lc-desc">Tracks live metrics for 24-48 h; re-opens if not fixed</p>
+          </div>
+
+        </div>
+
+        <!-- Bottom interactive sequence bar -->
+        <div class="lifecycle-track">
+          <div class="lt-step active">1. Ingest</div>
+          <div class="lt-sep">→</div>
+          <div class="lt-step active">2. Cluster</div>
+          <div class="lt-sep">→</div>
+          <div class="lt-step active">3. Segment</div>
+          <div class="lt-sep">→</div>
+          <div class="lt-step active">4. Reason</div>
+          <div class="lt-sep">→</div>
+          <div class="lt-step active">5. Quantify</div>
+          <div class="lt-sep">→</div>
+          <div class="lt-step active">6. Plan</div>
+          <div class="lt-sep">→</div>
+          <div class="lt-step human-lt active">7. APPROVE &amp; EXECUTE</div>
+          <div class="lt-sep">→</div>
+          <div class="lt-step active">8. Close Loop</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SLIDE 4  |  What Makes It Different
+    ══════════════════════════════════════════════════ -->
+    <section class="slide" id="sl-3">
+      <div class="slide-inner s4-layout">
+
+        <!-- Header -->
+        <div class="slide-header">
+          <div class="header-left">
+            <span class="sl-pill">Slide 04 / 05</span>
+            <h2 class="sl-heading">What makes it different</h2>
+          </div>
+          <div class="header-punchline">
+            Six architectural pillars powering trusted enterprise CX recovery
+          </div>
+        </div>
+
+        <!-- 6 Differentiator Cards (3x2 Grid) -->
+        <div class="diff-grid">
+
+          <!-- Card 1 -->
+          <div class="diff-card">
+            <div class="dc-icon-box" style="--dc-bg:#eff6ff;--dc-c:#1d4ed8">
+              <svg class="icon icon-22"><use href="#i-graph"/></svg>
+            </div>
+            <div class="dc-text">
+              <h3 class="dc-title">Evidence graph</h3>
+              <p class="dc-body">Each root cause links to logs, releases and metrics in a causal graph</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="diff-card">
+            <div class="dc-icon-box" style="--dc-bg:#f5f3ff;--dc-c:#7c3aed">
+              <svg class="icon icon-22"><use href="#i-scale"/></svg>
+            </div>
+            <div class="dc-text">
+              <h3 class="dc-title">Counter-evidence</h3>
+              <p class="dc-body">Rival explanations are scored, so sentiment is never treated as proof</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="diff-card">
+            <div class="dc-icon-box" style="--dc-bg:#ecfeff;--dc-c:#0891b2">
+              <svg class="icon icon-22"><use href="#i-target"/></svg>
+            </div>
+            <div class="dc-text">
+              <h3 class="dc-title">Segment-level impact</h3>
+              <p class="dc-body">Shows who is hurt most: VIP users, Android app users, a region</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="diff-card">
+            <div class="dc-icon-box" style="--dc-bg:#fffbeb;--dc-c:#d97706">
+              <svg class="icon icon-22"><use href="#i-rupee"/></svg>
+            </div>
+            <div class="dc-text">
+              <h3 class="dc-title">Money and risk</h3>
+              <p class="dc-body">Revenue at risk, churn probability and refund amounts per issue</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="diff-card">
+            <div class="dc-icon-box" style="--dc-bg:#f0fdf4;--dc-c:#16a34a">
+              <svg class="icon icon-22"><use href="#i-human"/></svg>
+            </div>
+            <div class="dc-text">
+              <h3 class="dc-title">Human-approved action</h3>
+              <p class="dc-body">High-risk fixes wait for a manager's approval, then run through APIs</p>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="diff-card">
+            <div class="dc-icon-box" style="--dc-bg:#f0fdfa;--dc-c:#0d9488">
+              <svg class="icon icon-22"><use href="#i-refresh"/></svg>
+            </div>
+            <div class="dc-text">
+              <h3 class="dc-title">Closed-loop verification</h3>
+              <p class="dc-body">Watches live metrics for 24-48 hours and reopens the case if needed</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Bottom Highlight Banner -->
+        <div class="diff-footer">
+          <div class="df-block">
+            <span class="df-num">100%</span>
+            <span class="df-label">Causal Verification</span>
+          </div>
+          <div class="df-sep"></div>
+          <div class="df-block">
+            <span class="df-num">Zero</span>
+            <span class="df-label">Hallucinated Actions</span>
+          </div>
+          <div class="df-sep"></div>
+          <div class="df-block">
+            <span class="df-num">24-48h</span>
+            <span class="df-label">Telemetry Watch Window</span>
+          </div>
+          <div class="df-sep"></div>
+          <div class="df-block">
+            <span class="df-num">Full</span>
+            <span class="df-label">Audit Trail &amp; Rollback</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SLIDE 5  |  Architecture, Roles and KPIs
+    ══════════════════════════════════════════════════ -->
+    <section class="slide" id="sl-4">
+      <div class="slide-inner s5-layout">
+
+        <!-- Header -->
+        <div class="slide-header">
+          <div class="header-left">
+            <span class="sl-pill">Slide 05 / 05</span>
+            <h2 class="sl-heading">Architecture, roles and KPIs</h2>
+          </div>
+          <div class="header-punchline">
+            Production-grade engineering built for enterprise scale
+          </div>
+        </div>
+
+        <!-- 3 Horizontal Pillars -->
+        <div class="s5-pillars">
+
+          <!-- Pillar 1: Architecture -->
+          <div class="pillar-card p-arch">
+            <div class="pillar-header">
+              <div class="pillar-badge badge-cyan"><svg class="icon icon-14"><use href="#i-stack"/></svg></div>
+              <h3 class="pillar-title">Architecture</h3>
+            </div>
+            <div class="arch-rows">
+              <div class="arch-item">
+                <span class="ai-role">Frontend</span>
+                <span class="ai-val">React 19, TypeScript, Tailwind, React Flow, Recharts</span>
+              </div>
+              <div class="arch-item">
+                <span class="ai-role">Backend</span>
+                <span class="ai-val">FastAPI, SQLAlchemy, Alembic, WebSockets for live events</span>
+              </div>
+              <div class="arch-item">
+                <span class="ai-role">AI Engine</span>
+                <span class="ai-val">LangGraph agents, HDBSCAN, anomaly detection, VADER, NetworkX</span>
+              </div>
+              <div class="arch-item">
+                <span class="ai-role">Data</span>
+                <span class="ai-val">MySQL 8 with automatic SQLite fallback</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pillar 2: Outcome KPIs -->
+          <div class="pillar-card p-kpi">
+            <div class="pillar-header">
+              <div class="pillar-badge badge-green"><svg class="icon icon-14"><use href="#i-kpi"/></svg></div>
+              <h3 class="pillar-title">Outcome KPIs</h3>
+            </div>
+            <ul class="kpi-bullet-list">
+              <li>
+                <span class="kpi-bullet"></span>
+                <div>
+                  <strong>Time to detect and resolve</strong>
+                  <p>Faster automated root-cause detection &amp; triaging</p>
+                </div>
+              </li>
+              <li>
+                <span class="kpi-bullet"></span>
+                <div>
+                  <strong>Complaint rate, affected segment</strong>
+                  <p>Targeted cohort relief before viral churn</p>
+                </div>
+              </li>
+              <li>
+                <span class="kpi-bullet"></span>
+                <div>
+                  <strong>Revenue at risk recovered</strong>
+                  <p>High-LTV accounts proactively protected</p>
+                </div>
+              </li>
+              <li>
+                <span class="kpi-bullet"></span>
+                <div>
+                  <strong>CSAT and sentiment recovery</strong>
+                  <p>Verified post-intervention positive sentiment lift</p>
+                </div>
+              </li>
+              <li>
+                <span class="kpi-bullet"></span>
+                <div>
+                  <strong>Case re-open rate</strong>
+                  <p>Strict closed-loop telemetry prevents false closures</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Pillar 3: Role-based access -->
+          <div class="pillar-card p-rbac">
+            <div class="pillar-header">
+              <div class="pillar-badge badge-purple"><svg class="icon icon-14"><use href="#i-lock"/></svg></div>
+              <h3 class="pillar-title">Role-based access</h3>
+            </div>
+            <div class="rbac-grid">
+              <div class="rbac-role-card">
+                <div class="rrc-tag rrc-viewer">VIEWER</div>
+                <div class="rrc-desc">Read-only live dashboards, metric telemetry &amp; recovery audits</div>
+              </div>
+              <div class="rbac-role-card">
+                <div class="rrc-tag rrc-analyst">ANALYST</div>
+                <div class="rrc-desc">Inspects causal graphs, injects evidence &amp; tunes thresholds</div>
+              </div>
+              <div class="rbac-role-card">
+                <div class="rrc-tag rrc-approver">APPROVER</div>
+                <div class="rrc-desc">Reviews &amp; authorizes high-risk financial or operational API actions</div>
+              </div>
+              <div class="rbac-role-card">
+                <div class="rrc-tag rrc-admin">ADMIN</div>
+                <div class="rrc-desc">Enterprise connector security, policy guardrails &amp; user management</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Grand Closing Pitch Banner -->
+        <div class="pitch-tagline-box">
+          <p class="tagline-text">
+            Others count complaints. <strong>CX Sentinel AI resolves them.</strong>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </div><!-- /slide-container -->
+
+  <!-- NAV BAR ──────────────────────────────────────────── -->
+  <nav id="nav-bar">
+    <div class="nav-side">
+      <button class="nav-btn" id="prev-btn" disabled>
+        <svg class="icon icon-14" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-chev-l"/></svg>
+        Previous
+      </button>
+      <span class="kb-hint">← → Arrow keys to navigate</span>
+    </div>
+
+    <div class="dot-nav" id="dot-nav">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+
+    <div class="nav-side nav-side-right">
+      <span class="kb-hint">Press <kbd>F</kbd> for Fullscreen</span>
+      <button class="icon-btn" id="fullscreen-btn" title="Toggle fullscreen (F)">
+        <svg class="icon icon-15" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-maximize"/></svg>
+      </button>
+      <button class="nav-btn" id="next-btn">
+        Next
+        <svg class="icon icon-14" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-chev-r"/></svg>
+      </button>
+    </div>
+  </nav>
+
+</div><!-- /presentation -->
+
+<!-- Step Detail Interactive Modal -->
+<div class="modal-overlay" id="modal">
+  <div class="modal-box">
+    <div class="modal-head">
+      <div class="modal-title" id="modal-title"></div>
+      <button class="modal-close" id="modal-close">
+        <svg class="icon icon-14" fill="none" stroke="currentColor" stroke-width="2.5"><use href="#i-x"/></svg>
+      </button>
+    </div>
+    <div class="modal-rule"></div>
+    <p class="modal-body" id="modal-body"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+

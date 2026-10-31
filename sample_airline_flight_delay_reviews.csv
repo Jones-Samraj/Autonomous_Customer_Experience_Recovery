@@ -1,0 +1,12 @@
+review_id,customer_id,timestamp,product,rating,review_text,city,platform
+REV-FLT-2026-001,CUST-00142,2026-10-27T07:15:20,Flight AI-402,1,"Aeroplane delayed by 5 hours in Delhi with no updates from ground crew. Horrible airline service.",Delhi,Android
+REV-FLT-2026-002,CUST-00289,2026-10-27T08:45:10,Flight 6E-2134,1,"Missed our connecting international flight because the inbound plane was delayed for 3 hours on the tarmac.",Mumbai,iOS
+REV-FLT-2026-003,CUST-00371,2026-10-27T10:12:05,Flight UK-812,1,"Kept passengers locked inside the aeroplane on Bengaluru runway for two hours with zero water or AC. Shocking delay.",Bengaluru,Android
+REV-FLT-2026-004,CUST-00415,2026-10-27T11:40:50,Flight SG-921,2,"Flight departure delayed four times. Gate changed three times across Terminal 1 with zero assistance.",Delhi,Web
+REV-FLT-2026-005,CUST-00523,2026-10-27T13:25:33,Flight AI-560,1,"Severe flight delay caused our luggage to be misplaced at Mumbai transit. Still waiting for baggage delivery.",Mumbai,iOS
+REV-FLT-2026-006,CUST-00681,2026-10-27T15:10:18,Flight SG-8115,1,"Aeroplane technical fault delayed departure by 6 hours. Airline refused to offer food or water vouchers.",Hyderabad,Android
+REV-FLT-2026-007,CUST-00742,2026-10-27T16:55:00,Flight 6E-501,1,"Flight cancelled after whole day of delays at Mumbai airport. Zero compensation or alternate flights provided.",Mumbai,Web
+REV-FLT-2026-008,CUST-00890,2026-10-27T18:30:45,Flight EK-505,2,"6 hours delay on international route. Missed our hotel booking and lost a full day of vacation.",Mumbai,iOS
+REV-FLT-2026-009,CUST-00912,2026-10-27T20:10:20,Flight AI-804,1,"Late arrival of incoming aircraft caused massive delay in Delhi. Customer service counters were completely unmanned.",Delhi,Android
+REV-FLT-2026-010,CUST-01054,2026-10-27T21:45:15,Flight UK-995,1,"Flight delayed till 2 AM. Stranded at airport gate with infants and elderly parents. No lounge access offered.",Bengaluru,Web
+

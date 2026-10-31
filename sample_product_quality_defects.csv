@@ -1,0 +1,10 @@
+ticket_id,customer_id,created_at,channel,category,subject,description,priority,status,resolved_at,product
+TKT-PRD-2026-001,CUST-00118,2026-10-24T08:30:15,app,product,Electric Kettle heating element burnt and smoking,Electric Kettle stopped heating after 2 days. Emits burning plastic smell and tripped power circuit.,urgent,open,,Electric Kettle
+TKT-PRD-2026-002,CUST-00267,2026-10-24T09:45:00,phone,product,Blender 750W sparks and burning smell from motor,Blender motor sparked on first use and stopped working completely. Defective manufacturing unit.,urgent,open,,Blender 750W
+TKT-PRD-2026-003,CUST-00392,2026-10-24T11:10:45,chat,product,Noise Cancelling Headphones left speaker died,Received defective headphones. The left earbud stopped working within 24 hours of unboxing.,high,open,,Noise Cancelling Headphones
+TKT-PRD-2026-004,CUST-00514,2026-10-24T12:55:20,app,product,Coffee Maker thermal heating malfunction,Coffee Maker refuses to brew and shows error E03 heating failure. Defective thermostat unit.,high,open,,Coffee Maker
+TKT-PRD-2026-005,CUST-00688,2026-10-24T14:20:10,email,product,Electric Kettle base connector melted,Dangerous quality defect. The base connector melted and scorched the kitchen counter.,urgent,open,,Electric Kettle
+TKT-PRD-2026-006,CUST-00823,2026-10-24T15:40:35,chat,product,Air Fryer basket handle broken on arrival,Plastic handle on Air Fryer basket cracked and fell off during initial wash. Extremely cheap build quality.,medium,open,,Air Fryer 4L
+TKT-PRD-2026-007,CUST-00951,2026-10-24T16:50:00,phone,product,Blender blades jammed and motor overheated,Blender 750W motor started smoking after blending soft tomatoes for 30 seconds. Malfunctioning batch.,high,open,,Blender 750W
+TKT-PRD-2026-008,CUST-01089,2026-10-24T18:15:22,app,product,Defective batch of Electric Kettles,Third replacement kettle with exact same coil burning defect. There is clearly a factory defect with this batch.,urgent,open,,Electric Kettle
+

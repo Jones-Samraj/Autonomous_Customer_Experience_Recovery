@@ -1,0 +1,8 @@
+ticket_id,customer_id,created_at,channel,category,subject,description,priority,status,resolved_at,product
+TKT-APP-2026-001,CUST-00105,2026-10-23T07:22:10,app,app,App crashes immediately on startup on Android 14,After updating to version 2.4.0 the app crashes as soon as the splash screen opens.,urgent,open,,
+TKT-APP-2026-002,CUST-00244,2026-10-23T08:45:30,email,app,Cart screen freezes and force closes,Tapping checkout freezes the screen for 5 seconds and then the application terminates.,high,open,,
+TKT-APP-2026-003,CUST-00388,2026-10-23T10:15:00,chat,app,White screen on product search,Searching for any electronics item causes an unhandled exception and blank white screen.,high,open,,
+TKT-APP-2026-004,CUST-00512,2026-10-23T11:50:22,app,app,Infinite loading loop on login page,Cannot log into my account. Biometric authentication loop causes app freeze.,medium,open,,
+TKT-APP-2026-005,CUST-00670,2026-10-23T13:10:45,email,app,Crash report on checkout button tap,App closes unexpectedly when clicking Proceed to Pay on iOS 17.,urgent,open,,
+TKT-APP-2026-006,CUST-00815,2026-10-23T14:35:18,chat,app,Black screen after latest release update,Updated this morning and now app will not open on Samsung Galaxy S23.,high,open,,
+
