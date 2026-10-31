@@ -110,15 +110,57 @@ export function Button({ variant = 'secondary', size = 'md', loading, icon, chil
   )
 }
 
-export function Stat({ label, value, hint, icon, tone = 'blue' }: { label: string; value: ReactNode; hint?: ReactNode; icon?: ReactNode; tone?: Tone }) {
+export function Stat({
+  label,
+  value,
+  hint,
+  icon,
+  tone = 'blue',
+  onClick,
+}: {
+  label: string
+  value: ReactNode
+  hint?: ReactNode
+  icon?: ReactNode
+  tone?: Tone
+  onClick?: () => void
+}) {
+  const isClickable = !!onClick
   return (
-    <div className="rounded-xl border border-line bg-surface p-4 shadow-card">
+    <div
+      role={isClickable ? 'button' : undefined}
+      tabIndex={isClickable ? 0 : undefined}
+      onClick={onClick}
+      onKeyDown={(e) => {
+        if (isClickable && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault()
+          onClick()
+        }
+      }}
+      className={cn(
+        'group rounded-xl border border-line bg-surface p-4 shadow-card transition-all duration-200',
+        isClickable &&
+          'cursor-pointer hover:-translate-y-0.5 hover:border-brand/40 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-brand/20 select-none'
+      )}
+    >
       <div className="flex items-center justify-between">
-        <span className="text-xs font-medium uppercase tracking-wide text-muted">{label}</span>
-        {icon && <span className={cn('grid size-7 place-items-center rounded-md', TONES[tone])}>{icon}</span>}
+        <span className="text-xs font-medium uppercase tracking-wide text-muted transition-colors group-hover:text-ink">
+          {label}
+        </span>
+        {icon && (
+          <span className={cn('grid size-7 place-items-center rounded-md transition-transform group-hover:scale-105', TONES[tone])}>
+            {icon}
+          </span>
+        )}
       </div>
       <div className="mt-2 text-[26px] font-semibold leading-none text-ink">{value}</div>
       {hint && <div className="mt-2 text-xs text-ink-2">{hint}</div>}
+      {isClickable && (
+        <div className="mt-2.5 flex items-center justify-between border-t border-line-2 pt-2 text-[11px] font-medium text-brand transition-colors group-hover:underline">
+          <span>Inspect source & details</span>
+          <span>&rarr;</span>
+        </div>
+      )}
     </div>
   )
 }
